@@ -9,7 +9,7 @@ assert.doesNotThrow(
 
 assert.throws(
   () => {
-    throw new Error('Wrong valuee');
+    throw new Error('Wrong valueee');
   },
   Error
 );
